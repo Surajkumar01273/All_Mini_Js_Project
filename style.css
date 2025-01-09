@@ -26,6 +26,21 @@ nav a {
     text-align: center;
 }
 
+.heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+.description1{
+    max-width: 500px;
+    margin-top: 2rem;
+    line-height: 1.5rem;
+    letter-spacing: 0.5px;
+    font-weight: bold
+}
+
 .project-index1 {
     text-align: center;
     padding: 1rem;
@@ -429,7 +444,7 @@ td {
     }
     #search-result {
         grid-template-columns: 1fr; /* Single column for smaller screens */
-        grid-gap: 20px;
+        grid-gap: 10px;
     }
 }
 
