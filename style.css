@@ -1,0 +1,453 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* background-color: #212121; */
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+nav {
+    background-color: #fff;
+    text-align: center;
+    margin-bottom: 3rem;
+    padding: 1rem 0;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 1rem;
+    margin: 0.4rem;
+    color: #212121;
+    text-align: center;
+}
+
+.project-index1 {
+    text-align: center;
+    padding: 1rem;
+}
+
+.canvas {
+    text-align: center;
+    height: 500px;
+}
+
+.allbutton {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.button {
+    width: 100px;
+    margin: 1rem;
+    height: 100px;
+    border: 1px solid black;
+}
+
+#grey {
+    background-color: pink;
+}
+
+#white {
+    background-color: #fff;
+}
+
+#blue {
+    background-color: blue;
+}
+
+#yellow {
+    background-color: yellow;
+}
+
+#purple {
+    background-color: purple;
+}
+
+.theme-heading {
+    font-size: 2rem;
+
+}
+
+@media(max-width: 400px) {
+    .theme-heading {
+        font-size: 1.4rem;
+        padding: .2rem;
+    }
+
+    .canvas h2 {
+        font-size: 0.9rem;
+    }
+
+    .h12 {
+        display: none;
+    }
+}
+
+/* *************    2nd project     *********/
+
+.bmi-section {
+    background-color: #212121;
+    padding: 1rem;
+}
+
+.container {
+    margin-bottom: 4rem;
+}
+
+.bmi-heading {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+form {
+    text-align: center;
+}
+
+.form-para {
+    padding-bottom: 1rem;
+}
+
+.form-para input {
+    color: #100f0f;
+    font-weight: 700;
+    padding: 0.4rem;
+    border-radius: 8px;
+
+}
+
+.bmi-btn {
+    margin: 1rem 0 1rem 3rem;
+    padding: 0.5rem 2rem;
+    border-radius: 10px;
+    font-weight: 700;
+    color: #212121;
+}
+
+#result {
+    margin: 1rem 0 1rem;
+}
+
+.guidance-heading {
+    padding-bottom: 1rem;
+    margin-left: -2.2rem;
+}
+
+.guidance {
+    padding-bottom: 1rem;
+}
+
+
+/* *************    3rd project       ********* */
+
+.project-index {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.time-section {
+    padding: 3rem;
+    background-color: #100f0f;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#banner {
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+}
+
+#clock {
+    text-align: center;
+    background-color: orange;
+    padding: 1rem;
+    width: 150px;
+    border-radius: 10px;
+    color: black;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+/* ************   4th project       *********** */
+
+
+
+.game-section {
+    background-color: #212121;
+}
+
+#wrapper {
+    text-align: center;
+    padding: 3rem;
+}
+
+#wrapper h1 {
+    margin: 1rem;
+}
+
+.totalRendom {
+    margin-bottom: 1rem;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+}
+
+#guess {
+    font-size: 2rem;
+}
+
+.guessField {
+    margin: 1rem 0;
+    color: black;
+    font-weight: 600;
+    font-size: 1rem;
+    width: 120px;
+    padding: 0.2rem;
+    border-radius: 5px;
+}
+
+.guessSubmit {
+    color: #fff;
+    background-color: black;
+    border: none;
+    padding: 0.3rem;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+.Remaining {
+    margin: 1rem 0;
+}
+
+.newGame {
+    display: inline-block;
+    font-weight: 700;
+    font-size: 1rem;
+    padding: 0.5rem;
+    margin-top: 1rem;
+    background-color: #7e3838;
+    border-radius: 10px;
+}
+
+
+/* *******    project 05    ************ */
+
+.random-bg-change {
+    padding: 2rem 0;
+}
+
+.bg-container {
+    text-align: center;
+}
+
+.bg-btn {
+    color: #fff;
+    background-color: #6d1111;
+    border: none;
+    padding: 0.2rem 1.5rem;
+    border-radius: 5px;
+    margin: 2rem 0;
+}
+
+/* **********   project 06  *********888 */
+
+.keycode {
+    background-color: #100f0f;
+    padding: 3rem;
+}
+
+table,
+th,
+td {
+    border: 1px solid #e7e7e7;
+    padding: 0.5rem;
+}
+
+.project {
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.color {
+    color: aliceblue;
+    display: flex;
+    flex-direction: row;
+}
+
+/*****************      project no. - 7     ********* */
+
+.img-search{
+    background: #39297b;
+    color: #fff;
+    padding: 3rem;
+    /* width: 100%; */
+    min-height: 100vh;
+}
+.img-search h1{
+    text-align: center;
+    font-weight: 600;
+}
+
+#search-form{
+    width: 90%;
+    max-width: 600px;
+    margin: 1rem auto auto;
+    height: 50px;
+    background-color: #434989;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+}
+#search-box{
+    width: 90%;
+    flex: 1;
+    height: 100%;
+    border: 0;
+    outline: 0;
+    background-color: transparent;
+    color:#fff;
+    font-size: 18px;
+    padding: 0 30px;
+}
+.search-btn{
+    padding: 0 4px;
+    height: 100%;
+    background-color: #ff3929;
+    color: #fff;
+    font-size: 18px;
+    border: 0;
+    outline: 0;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    cursor: pointer;
+}
+::placeholder{
+    color: #fff;
+    font-size: 14px;
+}
+
+#show-more-btn{
+    background-color: #ff3929;
+    color: #fff;
+    outline: 0;
+    border: 0;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 10px auto 100px;
+    display: none;
+}
+
+
+/**********    Project  no. 08 */
+
+.drag-drop-sec {
+    background-color: #0b0423;
+    padding: 2rem;
+}
+.drag-h {
+    margin-top: 3rem;
+}
+.drop-container {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #0b0423;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap; /* Allow wrapping for smaller screens */
+}
+#left, #right {
+    width: 300px;
+    min-height: 400px;
+    margin: 1.2rem;
+    border: 2px dashed #fff;
+}
+.list {
+    background-color: #e91e63;
+    height: 60px;
+    margin: 30px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    cursor: grab;
+}
+.list img {
+    width: 10px;
+    margin-right: 15px;
+    margin-left: 20px;
+}
+#search-result {
+    width: 90%;
+    margin: 100px auto 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 40px;
+}
+#search-result img {
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+/* Responsive Styles */
+@media (max-width: 1024px) {
+    #left, #right {
+        width: 250px;
+    }
+    #search-result {
+        grid-template-columns: 1fr 1fr; /* Reduce columns to 2 for tablets */
+    }
+}
+
+@media (max-width: 768px) {
+    #left, #right {
+        width: 200px;
+    }
+    .list {
+        height: 50px;
+        font-size: 14px;
+    }
+    #search-result {
+        grid-template-columns: 1fr; /* Single column for smaller screens */
+        grid-gap: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .drag-drop-sec {
+        padding: 1rem;
+    }
+    #left, #right {
+        width: 100%;
+        min-height: 300px; /* Adjust height for very small screens */
+        margin: 1rem 0;
+    }
+    .list {
+        height: 40px;
+        font-size: 12px;
+    }
+    #search-result img {
+        height: 200px;
+    }
+}
+
