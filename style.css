@@ -28,6 +28,7 @@ nav a {
 
 .heading{
     display: flex;
+    padding: 5px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -35,7 +36,6 @@ nav a {
 }
 .description1{
     padding: 5px;
-    padding-left: 15px;
     max-width: 600px;
     margin-top: 2rem;
     line-height: 1.5rem;
